@@ -1,6 +1,37 @@
 .header {
-    height: 118px;
-    background: #e1e1e1;
-    
-      
+  height: 118px;
+  background: #e1e1e1;
+  color: #676666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo {
+    padding: 0 50px;
+    font-size: 50px;
+    font-family: "Lobster";
+    &_orange {
+      color: #ff7700;
+    }
+  }
+  &__nav {
+    display: flex;
+    &_list {
+      box-sizing: border-box;
+      justify-content: center;
+      padding: 30px;
+      text-decoration: none;
+      color: #5d5c5c;
+      text-align: center;
+      outline-offset: -5px;
+      &:hover {
+        outline-offset: -4px;
+        border-bottom: solid 5px #ff7700;
+        border-left: solid 1px #5d5c5c;
+        border-right: solid 1px #5d5c5c;
+      }
+    }
+    &_icon {
+      height: 35px;
+    }
+  }
 }

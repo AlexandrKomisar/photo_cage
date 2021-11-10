@@ -1,5 +1,62 @@
+@font-face {
+  font-family: "Lobster";
+  src: url("../fonts/Lobster 1.4.otf");
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 .header {
   height: 118px;
-  background: #ececec;
+  background: #e1e1e1;
+  color: #676666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  padding: 0 50px;
+  font-size: 50px;
+  font-family: "Lobster";
+}
+
+.header__logo_orange {
+  color: #ff7700;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__nav_list {
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 30px;
+  text-decoration: none;
+  color: #5d5c5c;
+  text-align: center;
+  outline-offset: -5px;
+}
+
+.header__nav_list:hover {
+  outline-offset: -4px;
+  border-bottom: solid 5px #ff7700;
+  border-left: solid 1px #5d5c5c;
+  border-right: solid 1px #5d5c5c;
+}
+
+.header__nav_icon {
+  height: 35px;
 }
 /*# sourceMappingURL=styles.css.map */
