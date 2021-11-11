@@ -57,4 +57,37 @@ a {
 .header__nav_icon {
   height: 35px;
 }
+
+.upload {
+  text-align: center;
+  padding-top: 34px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.upload__title {
+  padding-bottom: 34px;
+}
+
+.upload__btn {
+  background: #ff7200;
+  height: 47px;
+  width: 208px;
+  border: none;
+  color: peachpuff;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
 /*# sourceMappingURL=styles.css.map */

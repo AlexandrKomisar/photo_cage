@@ -33,8 +33,21 @@
         </nav>
       </header>
       <section class="upload">
-        <h4>Please select an image from your computer</h4>
-        <input /> <button>Upload image</button>
+        <form action="">
+          <h4 class="upload__title">
+            Please select an image from your computer
+          </h4>
+          <p>
+            <input class="custom-file-upload" type="text" />
+            <input
+              class="custom-file-upload"
+              name="img"
+              accept="image/jpeg,image/png,image/gif"
+              type="file"
+            />
+            <input class="upload__btn" type="submit" value="Upload image" />
+          </p>
+        </form>
       </section>
       <section class="gallery">
         <div class="gallery__card"></div>
