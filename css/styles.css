@@ -4,7 +4,7 @@
 }
 
 .container {
-  width: 1200px;
+  width: 1600px;
   margin: auto;
 }
 
@@ -46,11 +46,9 @@ a {
   text-decoration: none;
   color: #5d5c5c;
   text-align: center;
-  outline-offset: -5px;
 }
 
 .header__nav_list:hover {
-  outline-offset: -4px;
   border-bottom: solid 5px #ff7700;
   border-left: solid 1px #5d5c5c;
   border-right: solid 1px #5d5c5c;
